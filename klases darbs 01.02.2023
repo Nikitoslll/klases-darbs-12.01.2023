@@ -1,0 +1,49 @@
+# klases-darbs-12.01.2023
+#include<iostream>
+using namespace std;
+int main() {
+	//int s1, s2;
+
+	//cin >> s1 >> s2;
+	//if (s1 > s2) cout << "1. skaitlis ir maksimalais " << endl;
+	//else cout << "2. skaitlis ir maksimalais  " << endl;
+	//if (s1 < 0) cout << "1 skaitlis ir negativs" << endl;
+	//if (s2 < 0) cout << "2 skaitlis ir negativs" << endl;
+	//if (s1 % 2 == 0) {
+	//	cout <<  endl <<"skaitlis 1 ir para skaitlis" << endl;
+	//}
+	//else cout << endl << " skaitlis 1 nav para skaitlis" << endl;
+	//if (s2 % 2 == 0) {
+	//	cout << endl << "skaitlis 2 ir para skaitlis" << endl;
+	//}
+	//else cout << endl << " skaitlis 2 nav para skaitlis" << endl;
+
+	int x;
+	cout << "Uzraksti dienu";
+	cin >> x;
+
+	//if (x >= 90)
+	//	cout << "Grade A";
+	//if (x >= 80 && x <90)
+	//	cout << "Grade B";
+	//if (x >= 70 && x < 80)
+	//	cout << "Grade C";
+	//if (x >= 60 && x < 70)
+	//	cout << "Grade D";
+	//if (x >= 50 && x < 60)
+	//	cout << "Grade E";
+	//if (x >= 40 && x < 50)
+	//	cout << "Grade F";
+	//if (x >= 30 && x < 40)
+	//	cout << "Grade G";
+
+
+	if (x == 1) { cout << "pirmdiena"; }
+	if (x == 2) { cout << "otrdiena"; }
+	if (x == 3) { cout << "tresdiena"; }
+	if (x == 4) { cout << "ceturdiena"; }
+	if (x == 5) { cout << "piektdiena"; }
+	if (x == 6) { cout << "sestdiena"; }
+	if (x == 7) { cout << "svetdiena"; }
+
+}
